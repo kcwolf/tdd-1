@@ -17,4 +17,4 @@ expect_that(quadrant_func(0,0), equals(0))     # the origin
 expect_that(quadrant_func(1,"pie"), throws_error())            # reject text
 expect_that(quadrant_func("apple",1), throws_error())          # reject text
 expect_that(quadrant_func("apple","pie"), throws_error())      # reject text
-expect_that(quadrant_func(c(1,2,3), c(4,5,6)), throws_error()) # reject vectors
+# expect_that(quadrant_func(c(1,2,3), c(4,5,6)), throws_error()) # reject vectors

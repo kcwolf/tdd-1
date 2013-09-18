@@ -1,7 +1,9 @@
 # Test Driven Development 
 ## Demo Project 1
 
-Directory structure and unit tests for a new R function, `quadrant(x, y)`, which takes in coordinants x and y and returns the quadrant that point is in:
+This project contains the directory structure and unit tests for a new R function: `quadrant(x, y)`
+
+This function should take in coordinants x and y and return the quadrant that point is in, using the following rules:
 
 * Quadrant 1: both positive
 * Quadrant 2: x negative, y positive
