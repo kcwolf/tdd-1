@@ -6,6 +6,10 @@ Directory structure and unit tests for a new R function, `quadrant(x, y)`, which
 * Quadrant 2: x negative, y positive
 * Quadrant 3: both negative
 * Quadrant 4: x positive, y negative
+* Points on the x or y axis should return 'x' or 'y' respectively
+* The origin should return 0
+* Bad input should throw an error
+  * hint: use a combination of `stopifnot()` and `is.numeric()`
 
 The unit tests are in the tests directory.  
 
